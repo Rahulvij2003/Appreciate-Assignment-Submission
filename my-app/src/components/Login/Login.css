@@ -1,0 +1,332 @@
+/* Base Mobile Styles */
+.login {
+    position: relative;
+    width: 425px;
+    height: 961px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.txt {
+    position: absolute;
+    width: 284px;
+    height: 50px;
+    left: 152px;
+    top: -9px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+.text {
+    position: absolute;
+    width: 233px;
+    height: 72px;
+    left: 91px;
+    top: 95px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #6B5E5E;
+}
+
+.login1 {
+    position: absolute;
+    width: 43px;
+    height: 35px;
+    left: 136px;
+    top: 224px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #036BB9;
+}
+
+.register {
+    position: absolute;
+    width: 63px;
+    height: 35px;
+    left: 208px;
+    top: 224px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+.email, .pass {
+    position: absolute;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    color: #A6A6A6;
+    text-decoration: none;
+    border: none;
+    width: 276px;
+}
+
+.email {
+    top: 292px;
+    left: 80px;
+}
+
+.pass {
+    top: 375px;
+    left: 80px;
+}
+
+.epic {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 45px;
+    top: 290px;
+}
+
+.lockpic {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 45px;
+    top: 372px;
+}
+
+.line, .line2 {
+    position: absolute;
+    width: 317px;
+    border: 1px solid #A6A6A6;
+}
+
+.line {
+    top: 323px;
+    left: 45px;
+}
+
+.line2 {
+    top: 406px;
+    left: 45px;
+}
+
+.check {
+    position: absolute;
+    width: 21px;
+    height: 16px;
+    left: 0px;
+    top: -5px;
+    border: 1px solid #D5C5C5;
+    border-radius: 2px;
+}
+
+.remember {
+    position: absolute;
+    width: 176px;
+    height: 29px;
+    left: 9px;
+    top: -21px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #6B5E5E;
+}
+
+.group {
+    position: absolute;
+    width: 206px;
+    height: 29px;
+    left: 45px;
+    top: 450px;
+}
+
+.forgot {
+    position: absolute;
+    width: 143px;
+    height: 29px;
+    left: 237px;
+    top: 444px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #0386D0;
+    text-decoration: none;
+}
+
+.frame {
+    position: absolute;
+    width: 318px;
+    height: 45px;
+    left: 50px;
+    top: 520px;
+    background: #FFFFFF;
+}
+
+.rectangle {
+    position: absolute;
+    width: 318px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    background: #0386D0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.lg {
+    position: absolute;
+    width: 318px;
+    height: 45px;
+    left: -3px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.connect {
+    position: absolute;
+    width: 183px;
+    height: 35px;
+    left: 121px;
+    top: 577px;
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #747070;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px;
+    gap: 24px;
+    position: absolute;
+    width: 232px;
+    height: 61px;
+    left: 92px;
+    top: 650px;
+}
+
+.fingerprint {
+    box-sizing: border-box;
+    position: absolute;
+    width: 69px;
+    height: 72px;
+    left: 168px;
+    top: 753px;
+    background: #0386D0;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+}
+
+/* Responsive Adjustments for Desktop (min-width: 448px and min-height: 915px) */
+@media (min-width: 448px) and (min-height: 915px) {
+    .login {
+        width: 600px;
+        height: 947px;
+        
+        box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.35);
+       
+    }
+    .epic{
+        left: 101px;
+    }
+    .lockpic{
+        left: 101px;
+    }
+
+    .txt {
+        width: 100%;
+        top: 20px;
+        left: 221px;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .text {
+        top: 130px;
+        left: 0;
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .login1, .register {
+        
+        font-size: 28px;
+    }
+    .register{
+        left: 310px;
+    }
+    .login1{
+        left: 200px;
+    }
+
+    .email, .pass {
+        left: 140px;
+        width: 300px;
+    }
+
+    .frame, .rectangle {
+        width: 400px;
+        left: calc(50% - 200px);
+        top: 600px;
+    }
+
+    .lg {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .connect {
+        top: 491px;
+        left: 189px;
+    }
+    .line{
+        left: 101px;
+    }
+    .line2{
+        left: 101px;
+    }
+
+    .logos {
+        left: calc(50% - 116px);
+        top: 578px;
+    }
+
+    .remember{
+        left: 57px;
+    }
+    .forgot{
+        left: 309px;
+        text-decoration: none;
+    }
+    .check{
+        left: 51px;
+    }
+    .fingerprint {
+        left: calc(50% - 34px);
+        top: 687px;
+    }
+}

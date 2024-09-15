@@ -1,0 +1,246 @@
+.full {
+    /* Mobile View (412x915) */
+    position: relative;
+    width: 412px;  /* Mobile width */
+    height: 915px; /* Mobile height */
+  
+    background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+    border: 0.5px solid rgba(210, 231, 255, 0.5);
+    border-radius: 50px;
+  }
+  
+  /* Desktop styles (width 1024px and larger) */
+  @media only screen and (min-width: 1024px) {
+    .full {
+      width: 1400px; /* Desktop width */
+      height: 915px; /* Same height as mobile */
+      
+      background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+      border: 1px solid rgba(210, 231, 255, 0.5); /* Thicker border for desktop */
+      border-radius: 30px; /* Smaller border-radius for desktop */
+    }
+  }
+  .vector {
+    /* Vector for Mobile */
+    position: absolute;
+    width: 65px;
+    height: 98px;
+    left: 58px;
+    top: 177px;
+    mix-blend-mode: multiply;
+    border: 1px solid #EEF3FA;
+    filter: blur(7px);
+  }
+  
+  .vector2 {
+    /* Vector 2 for Mobile */
+    position: absolute;
+    width: 65px;
+    height: 98px;
+    left: 157px;
+    top: 177px;
+    mix-blend-mode: multiply;
+    border: 1px solid #EEF3FA;
+    filter: blur(5px);
+  }
+  
+  .vector3 {
+    /* Vector 3 for Mobile */
+    position: absolute;
+    width: 65px;
+    height: 98px;
+    left: 256px;
+    top: 177px;
+    mix-blend-mode: multiply;
+    border: 1px solid #EEF3FA;
+    filter: blur(2px);
+  }
+  
+  .rectangle {
+    /* Rectangle for Mobile */
+    position: absolute;
+    width: 412px;
+    height: 484px;
+    left: 0px;
+    top: 433px;
+    background: #FFFFFF;
+    border-radius: 47px 45px 50px 50px;
+  }
+  
+  .name {
+    /* Name for Mobile */
+    position: absolute;
+    width: 296px;
+    height: 38px;
+    left: 148px;
+    top: 47px;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .txt {
+    /* Text for Mobile */
+    position: absolute;
+    width: 296px;
+    height: 133px;
+    left: 50px;
+    top: 143px;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8E9399;
+  }
+  
+  .grp {
+    /* Group for Mobile */
+    position: absolute;
+    width: 258px;
+    height: 50px;
+    left: 15px;
+    top: -331px;
+  }
+  
+  .button {
+    /* Button for Mobile */
+    position: absolute;
+    width: 258px;
+    height: 50px;
+    left: 58px;
+    top: 706px;
+    background: #000000;
+    border-radius: 60px;
+  }
+  
+  .beforebtn {
+    /* Before Button for Mobile */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 68px;
+    height: 39px;
+    left: 137px;
+    top: 703px;
+  }
+  
+  .btn {
+    /* Button Text for Mobile */
+    width: 48px;
+    height: 19px;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  /* Desktop styles (min-width: 1024px) */
+  @media screen and (min-width: 1024px) {
+    .vector {
+      /* Vector for Desktop */
+      width: 120px;
+      height: 150px;
+      left: 200px;
+      top: 100px;
+      filter: blur(10px); /* More pronounced blur for larger screens */
+    }
+  
+    .vector2 {
+      /* Vector 2 for Desktop */
+      width: 120px;
+      height: 150px;
+      left: 500px;
+      top: 100px;
+      filter: blur(8px);
+    }
+  
+    .vector3 {
+      /* Vector 3 for Desktop */
+      width: 120px;
+      height: 150px;
+      left: 800px;
+      top: 100px;
+      filter: blur(5px);
+    }
+  
+    .rectangle {
+      /* Rectangle for Desktop */
+      width: 1400px;
+      height: 484px;
+      left: 0px;
+      top: 433px;
+      background: #FFFFFF;
+      border-radius: 30px;
+    }
+  
+    .name {
+      /* Name for Desktop */
+      width: 1000px;
+      height: 50px;
+      left: 300px;
+      top: 50px;
+      font-size: 50px;
+    }
+  
+    .txt {
+      /* Text for Desktop */
+      width: 1000px;
+      height: 150px;
+      left: 300px;
+      top: 150px;
+      font-size: 20px;
+    }
+  
+    .grp {
+      /* Group for Desktop */
+      width: 500px;
+      height: 100px;
+      left: 400px;
+      top: 600px;
+    }
+  
+    .button {
+      /* Button for Desktop */
+      width: 500px;
+      height: 70px;
+      left: 400px;
+      top: 700px;
+      border-radius: 40px;
+    }
+  
+    .beforebtn {
+      /* Before Button for Desktop */
+      width: 100px;
+      height: 50px;
+      left: 625px;
+      top: 710px;
+    }
+  
+    .btn {
+      width: 80px;
+      height: 30px;
+      font-size: 20px;
+    }
+  }
+  
